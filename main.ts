@@ -10,7 +10,7 @@ basic.forever(function () {
         Ring.clear()
         Ring.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
         position = 0
-        Ring.show()
     }
+    Ring.show()
     basic.pause(100)
 })
